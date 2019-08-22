@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 ea28c23e74fac007ea03b2ed1fa30b9f15a42b51 JOFLIX <joflixooko@outlook.com> 1566467568 +0300	commit (initial): ...
+ea28c23e74fac007ea03b2ed1fa30b9f15a42b51 2c62e308d25226d0d309692642886c061b47da6c JOFLIX <joflixooko@outlook.com> 1566467585 +0300	commit: second migration
+2c62e308d25226d0d309692642886c061b47da6c 62e1d3bd501dc30faaa83da36cc51898fec30af8 JOFLIX <joflixooko@outlook.com> 1566467605 +0300	commit: create project
+62e1d3bd501dc30faaa83da36cc51898fec30af8 1ea2be7aeeb3bc2e8b3b45d632211ec50b272fd1 JOFLIX <joflixooko@outlook.com> 1566467624 +0300	commit: create the app
+1ea2be7aeeb3bc2e8b3b45d632211ec50b272fd1 a11085e8c64a92cc00d67bd0af3f2d87803c32cf JOFLIX <joflixooko@outlook.com> 1566467667 +0300	commit: create virtual and install django and respective dependencies
+a11085e8c64a92cc00d67bd0af3f2d87803c32cf 209a8ab1e914d520e7b7947406d5b83b19fa7811 JOFLIX <joflixooko@outlook.com> 1566481594 +0300	commit: deleted the venv because it could not export imagelibrary

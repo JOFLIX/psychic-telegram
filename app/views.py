@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-  
+# -*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.http import HttpRequest
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import DetailView
 
 from app.models import Album, AlbumImage
-
+from django.db.models import Q
 def gallery(request):
     list = Album.objects.filter(is_visible=True).order_by('-created')
     paginator = Paginator(list, 10)

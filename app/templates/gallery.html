@@ -3,24 +3,24 @@
 
 {% block content %}
 
-<div class="slider">
+<div class="slider" style="font-family: 'Satisfy', cursive;">
     <ul class="slides">
         <li>
-            <img src="{% static 'images/mountain.jpg' %}" alt="Django Photo Gallery" class="opaque">
-            <div class="caption center-align">
+            <img src="{% static 'images/mountaineers.jpg' %}" alt="Django Photo Gallery" class="opaque">
+            <div class="caption center-align" style="font-family: 'Satisfy', cursive;">
                 <h1>
-                    Django Photo Gallery Sample<br/>
-                    <small class="light text-lighten-3 hide-on-small-only">Build photo gallery in seconds.</small>
+                    Conqueror's Photo Gallery<br/>
+                    <small class="light text-lighten-3 hide-on-small-only">Built to showcase sweet memories</small>
                 </h1>
-                
+
             </div>
         </li>
         <li>
-            <img src="{% static 'images/lake.jpg' %}" alt="Django Photo Gallery" class="opaque">
+            <img src="{% static 'images/lakes.jpg' %}" alt="Django Photo Gallery" class="opaque">
             <div class="caption left-align">
                 <h1>
-                    Designed to be mobile<br />
-                    <small class="light text-lighten-3 hide-on-small-only">Optimized images to load on every device.</small>
+                    A sobber mind will never cease to discuss ideas<br />
+                    <small class="light text-lighten-3 hide-on-small-only">The sapient knows where to build the castles, in the air, because there, they belong..</small>
                 </h1>
             </div>
         </li>
@@ -35,7 +35,7 @@
                 <div class="card-image">
                     <img src="{{ album.thumb.url }}" alt="{{ album.title }}" class="dpg-album-card-image" />
                 </div>
-                <div class="card-content">
+                <div class="card-content" style="font-family: 'Montez', cursive;">
                     <span class="card-title">{{ album.title }}</span>
                     <p>{{ album.description|truncatechars:120 }}</p>
                 </div>

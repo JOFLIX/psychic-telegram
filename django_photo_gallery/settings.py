@@ -30,8 +30,8 @@ INSTALLED_APPS = [
     'django_admin_reset',
     'gallery',
     'watermarker',
-    'whoosh',
-    'haystack',
+    # 'whoosh',
+    # 'haystack'
 
     'user.apps.UserConfig'
     ]

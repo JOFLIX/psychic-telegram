@@ -31,11 +31,11 @@ urlpatterns = [
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     #enabling Auth
-    # ##### user related path##########################
+    ##### user related path##########################
     # path('', include('user.urls')),
-    # path('login/', user_view.Login, name ='login'),
-    # path('logout/', auth.LogoutView.as_view(template_name ='user / index.html'), name ='logout'),
-    # path('register/', user_view.register, name ='register'),
+    url(r'^login/', user_view.Login, name ='login'),
+    url(r'^logout/', auth.LogoutView.as_view(template_name ='user / index.html'), name ='logout'),
+    url(r'^register/', user_view.register, name ='register'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'app.views.handler404'

@@ -3,7 +3,7 @@
 from django.shortcuts import render
 from django.http import HttpRequest
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from django.views.generic import DetailView
+from django.views.generic import DetailView, ListView
 
 from app.models import Album, AlbumImage
 from django.db.models import Q
@@ -30,6 +30,17 @@ class AlbumDetail(DetailView):
         # Add in a QuerySet of all the images
         context['images'] = AlbumImage.objects.filter(album=self.object.id)
         return context
+
+class SearchResultsView(ListView):
+    model = Album
+    template_name = 'search_results.html'
+
+    def get_queryset(self): # new
+        query = self.request.GET.get('q')
+        object_list = AlbumImage.objects.filter(
+            Q(album=query) | Q(images=query)
+        )
+        return object_list
 
 def handler404(request, exception):
     assert isinstance(request, HttpRequest)

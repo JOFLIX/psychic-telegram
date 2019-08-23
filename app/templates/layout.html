@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+{% load watermark %}
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% load staticfiles %} {% include 'material/includes/material_css.html' %}
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Sacramento|Satisfy&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Bad+Script|Dancing+Script|Grand+Hotel|Montez|Niconne|Sacramento|Satisfy&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Bad+Script|Dancing+Script|Grand+Hotel|Montez|Niconne|Sacramento|Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'site.css' %}" type="text/css" /> {% block css %}{% endblock %}
     <style media="screen">
       h1 {font-family: 'Satisfy', cursive;}
@@ -18,6 +19,12 @@
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo" style="font-family: 'Satisfy', cursive;">Conqueror's Photo Gallery</a>
             <ul class="right hide-on-med-and-down">
+              <li>
+                <form action="{% url 'search_results' %}" method="get">
+                  <input name="q" type="text" placeholder="Search..." style="color:white">
+                </form>
+
+              </li>
                 <li>
                     <a href="#">Admin Link</a>
                 </li>

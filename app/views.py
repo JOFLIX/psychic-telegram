@@ -4,9 +4,10 @@ from django.shortcuts import render
 from django.http import HttpRequest
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import DetailView, ListView
-
+from django.contrib.postgres.search import SearchVector
 from app.models import Album, AlbumImage
 from django.db.models import Q
+# from playhouse.sqlite_ext import SqliteExtDatabase
 def gallery(request):
     list = Album.objects.filter(is_visible=True).order_by('-created')
     paginator = Paginator(list, 10)
@@ -38,7 +39,7 @@ class SearchResultsView(ListView):
     def get_queryset(self): # new
         query = self.request.GET.get('q')
         object_list = AlbumImage.objects.filter(
-            Q(album=query) | Q(image=query)| Q(thumb=query)| Q(id=query)|Q(alt=query)
+            Q(album=query) | Q(image=query)| Q(thumb=query)| Q(id=query)|Q(alt=query) |Q(album_id=query)|Q(slug=query)| Q(tags=query)
         )
         return object_list
 

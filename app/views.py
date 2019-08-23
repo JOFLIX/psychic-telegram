@@ -38,7 +38,7 @@ class SearchResultsView(ListView):
     def get_queryset(self): # new
         query = self.request.GET.get('q')
         object_list = AlbumImage.objects.filter(
-            Q(album=query) | Q(images=query)
+            Q(album=query) | Q(image=query)| Q(thumb=query)| Q(id=query)|Q(alt=query)
         )
         return object_list
 

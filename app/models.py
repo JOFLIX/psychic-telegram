@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 import uuid
 from django.db import models
 from imagekit.models import ProcessedImageField
 from imagekit.processors import ResizeToFit
-
+from django.contrib.postgres.search import SearchVector
 class Album(models.Model):
     title = models.CharField(max_length=70)
     description = models.TextField(max_length=1024)
@@ -30,3 +30,6 @@ class AlbumImage(models.Model):
     width = models.IntegerField(default=0)
     height = models.IntegerField(default=0)
     slug = models.SlugField(max_length=70, default=uuid.uuid4, editable=False)
+    tags = models.CharField(max_length=250)
+
+new_field = models.CharField(max_length=140, default='SOME STRING')

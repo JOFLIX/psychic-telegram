@@ -16,6 +16,7 @@ INTERNAL_IPS = ('0.0.0.0','127.0.0.1','localhost',)
 INSTALLED_APPS = [
     'app',
     'material',
+    'crispy_forms',
     'material.admin',
     'imagekit',
     'django.contrib.admin',
@@ -27,7 +28,10 @@ INSTALLED_APPS = [
     'django.contrib.sitemaps',
     'django.contrib.sites',
     'django_admin_reset',
+    'gallery',
+    'watermarker',
 
+    'user.apps.UserConfig'
     ]
 
 SITE_ID = 1
@@ -50,7 +54,7 @@ TEMPLATES = [
         'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
-            
+
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
@@ -140,10 +144,13 @@ CACHES = {
     }
 }
 
+#configuring mailing and user auth
+LOGIN_REDIRECT_URL='index'
+EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
-EMAIL_HOST = ''
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST = 'stmp.gmail.com'
+EMAIL_HOST_USER = 'joflixo@gmail.com'
+EMAIL_HOST_PASSWORD = '10061998.'
 EMAIL_PORT = 587
 
 STATICFILES_FINDERS = (

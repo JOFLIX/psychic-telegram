@@ -32,4 +32,10 @@ class AlbumImage(models.Model):
     slug = models.SlugField(max_length=70, default=uuid.uuid4, editable=False)
     tags = models.CharField(max_length=250)
 
-new_field = models.CharField(max_length=140, default='SOME STRING')
+
+    @classmethod
+    def search_by_tags(cls,search_term):
+        albums = cls.objects.filter(tags__icontains=search_term)
+        return image
+
+# new_field = models.CharField(max_length=140, default='SOME STRING')

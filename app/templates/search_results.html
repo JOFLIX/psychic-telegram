@@ -1,9 +1,19 @@
+{%extends 'layout.html'%}
+{% block content %}
 <h1>Search Results</h1>
+<div class="my-card__media mdc-card__media mdc-card__media--16-9" style="align-content:center-align; padding-left:8%">
+  <div class="card-image">
 
-<ul>
-  {% for album in albums %}
-    <li>
-      {{ album.slug }}, {{ album.slug }}
-    </li>
-  {% endfor %}
-</ul>
+      {% for album in object_list %}
+
+          <img src="{{ album.image.url }}" alt="{{ album.title }}" class="dpg-album-card-image">
+          <!-- {{ album.slug }}, {{ image.url.slug }} -->
+
+      {% endfor %}
+
+  </div>
+</div>
+
+
+
+{% endblock %}

@@ -291,7 +291,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django 사이트 관리"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django 관리"
 
 msgid "Site administration"
@@ -587,7 +587,7 @@ msgstr "%(model)s 추가"
 msgid "Delete selected %(model)s"
 msgstr "선택된 %(model)s 제거"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "사이트를 이용해 주셔서 고맙습니다."
 
 msgid "Log in again"

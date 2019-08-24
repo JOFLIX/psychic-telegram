@@ -283,7 +283,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Даңғо сайтының әкімі"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Даңғо әкімшілігі"
 
 msgid "Site administration"
@@ -575,7 +575,7 @@ msgstr ""
 msgid "Delete selected %(model)s"
 msgstr ""
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Бүгін Веб-торапқа уақыт бөлгеніңіз үшін рахмет."
 
 msgid "Log in again"

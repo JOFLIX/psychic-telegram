@@ -272,7 +272,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Административен панел"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Административен панел"
 
 msgid "Site administration"
@@ -563,7 +563,7 @@ msgstr "Запис и нов"
 msgid "Save and continue editing"
 msgstr "Запис и продължение"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Благодарим Ви, че използвахте този сайт днес."
 
 msgid "Log in again"

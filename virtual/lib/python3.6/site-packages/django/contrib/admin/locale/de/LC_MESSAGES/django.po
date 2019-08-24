@@ -288,7 +288,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django-Systemverwaltung"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django-Verwaltung"
 
 msgid "Site administration"
@@ -592,7 +592,7 @@ msgstr "%(model)s hinzufügen"
 msgid "Delete selected %(model)s"
 msgstr "Ausgewählte %(model)s löschen"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Vielen Dank, dass Sie hier ein paar nette Minuten verbracht haben."
 
 msgid "Log in again"

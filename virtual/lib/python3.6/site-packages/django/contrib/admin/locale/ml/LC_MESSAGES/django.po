@@ -280,7 +280,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "ജാംഗോ സൈറ്റ് അഡ്മിന്‍"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "ജാംഗോ കാര്യനിർവഹണം"
 
 msgid "Site administration"
@@ -575,7 +575,7 @@ msgstr ""
 msgid "Delete selected %(model)s"
 msgstr "തിരഞ്ഞെടുത്തത് ഇല്ലാതാക്കുക%(model)s"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "ഈ വെബ് സൈറ്റില്‍ കുറെ നല്ല സമയം ചെലവഴിച്ചതിനു നന്ദി."
 
 msgid "Log in again"

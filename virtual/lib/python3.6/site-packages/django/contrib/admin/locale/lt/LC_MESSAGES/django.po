@@ -290,7 +290,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django tinklalapio administravimas"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django administravimas"
 
 msgid "Site administration"
@@ -589,7 +589,7 @@ msgstr "Pridėti dar vieną %(model)s"
 msgid "Delete selected %(model)s"
 msgstr "Pašalinti pasirinktus %(model)s"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Dėkui už šiandien tinklalapyje turiningai praleistą laiką."
 
 msgid "Log in again"

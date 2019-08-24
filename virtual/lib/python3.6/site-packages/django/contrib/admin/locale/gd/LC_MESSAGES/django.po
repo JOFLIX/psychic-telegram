@@ -292,7 +292,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Rianachd làraich Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Rianachd Django"
 
 msgid "Site administration"
@@ -604,7 +604,7 @@ msgstr "Sàbhail is seall"
 msgid "Close"
 msgstr "Dùin"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr ""
 "Mòran taing gun do chuir thu seachad deagh-àm air an làrach-lìn an-diugh."
 

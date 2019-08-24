@@ -288,7 +288,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Riarthóir suíomh Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Riarachán Django"
 
 msgid "Site administration"
@@ -590,7 +590,7 @@ msgstr "Cuir le %(model)s"
 msgid "Delete selected %(model)s"
 msgstr "Scrios roghnaithe %(model)s"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Go raibh maith agat le hadhaigh do cuairt ar an suíomh idirlínn inniú."
 
 msgid "Log in again"

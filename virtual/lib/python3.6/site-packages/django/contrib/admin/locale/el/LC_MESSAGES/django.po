@@ -292,7 +292,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Ιστότοπος διαχείρισης Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Διαχείριση Django"
 
 msgid "Site administration"
@@ -597,7 +597,7 @@ msgstr "Πρόσθεσε άλλο ένα %(model)s"
 msgid "Delete selected %(model)s"
 msgstr "Διέγραψε το επιλεγμένο %(model)s"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Ευχαριστούμε που διαθέσατε κάποιο ποιοτικό χρόνο στον ιστότοπο σήμερα."
 
 msgid "Log in again"

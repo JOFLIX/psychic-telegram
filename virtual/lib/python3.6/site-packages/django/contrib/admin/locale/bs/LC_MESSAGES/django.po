@@ -258,7 +258,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django administracija sajta"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django administracija"
 
 msgid "Site administration"
@@ -539,7 +539,7 @@ msgstr "Sačuvaj i dodaj slijedeći"
 msgid "Save and continue editing"
 msgstr "Sačuvaj i nastavi sa izmjenama"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Hvala što ste danas proveli vrijeme na ovom sajtu."
 
 msgid "Log in again"

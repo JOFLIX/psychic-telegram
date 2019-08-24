@@ -5,6 +5,7 @@ from django.db import models
 from imagekit.models import ProcessedImageField
 from imagekit.processors import ResizeToFit
 from django.contrib.postgres.search import SearchVector
+
 class Album(models.Model):
     title = models.CharField(max_length=70)
     description = models.TextField(max_length=1024)
@@ -31,7 +32,7 @@ class AlbumImage(models.Model):
     height = models.IntegerField(default=0)
     slug = models.SlugField(max_length=70, default=uuid.uuid4, editable=False)
     tags = models.CharField(max_length=250)
-
+    # gallery = models.ForeignKey('gallery', on_delete=models.PROTECT)
 
     @classmethod
     def search_by_tags(cls,search_term):

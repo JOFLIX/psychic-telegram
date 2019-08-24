@@ -279,7 +279,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django サイト管理"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django 管理サイト"
 
 msgid "Site administration"
@@ -576,7 +576,7 @@ msgstr "%(model)s の追加"
 msgid "Delete selected %(model)s"
 msgstr "選択された %(model)s を削除"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "ご利用ありがとうございました。"
 
 msgid "Log in again"

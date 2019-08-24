@@ -286,7 +286,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django sayt administratoru"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django administrasiya"
 
 msgid "Site administration"
@@ -588,7 +588,7 @@ msgstr "Saxla və gör"
 msgid "Close"
 msgstr "Qapat"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Sayt ilə səmərəli vaxt keçirdiyiniz üçün təşəkkür."
 
 msgid "Log in again"

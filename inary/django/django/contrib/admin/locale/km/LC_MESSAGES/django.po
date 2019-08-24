@@ -249,7 +249,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "ទំព័រគ្រប់គ្រងរបស់ Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "ការ​គ្រប់គ្រង​របស់ ​Django"
 
 msgid "Site administration"
@@ -524,7 +524,7 @@ msgstr "រក្សាទុក ហើយ បន្ថែម​ថ្មី"
 msgid "Save and continue editing"
 msgstr "រក្សាទុក ហើយ កែឯកសារដដែល"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "សូមថ្លែងអំណរគុណ ដែលបានចំណាយ ពេលវេលាដ៏មានតំលៃ របស់លោកអ្នកមកទស្សនាគេហទំព័ររបស់យើងខ្ញុំ"
 
 msgid "Log in again"

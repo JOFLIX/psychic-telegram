@@ -263,7 +263,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Adran weinyddol safle Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Gweinyddu Django"
 
 msgid "Site administration"
@@ -552,7 +552,7 @@ msgstr "Cadw ac ychwanegu un arall"
 msgid "Save and continue editing"
 msgstr "Cadw a pharhau i olygu"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Diolch am dreulio amser o ansawdd gyda'r safle we yma heddiw."
 
 msgid "Log in again"

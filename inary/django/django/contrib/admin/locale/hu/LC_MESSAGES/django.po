@@ -287,7 +287,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django honlapadminisztráció"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django adminisztráció"
 
 msgid "Site administration"
@@ -585,7 +585,7 @@ msgstr "Újabb %(model)s hozzáadása"
 msgid "Delete selected %(model)s"
 msgstr "Kiválasztott %(model)s törlése"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Köszönjük hogy egy kis időt eltöltött ma a honlapunkon."
 
 msgid "Log in again"

@@ -282,7 +282,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Përgjegjës sajti Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Administrim i Django-s"
 
 msgid "Site administration"
@@ -582,7 +582,7 @@ msgstr "Shtoni një %(model)s tjetër"
 msgid "Delete selected %(model)s"
 msgstr "Fshije %(model)s e përzgjedhur"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Faleminderit që shpenzoni sot pak kohë të çmuar me sajtin Web."
 
 msgid "Log in again"

@@ -254,7 +254,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "জ্যাঙ্গো সাইট প্রশাসক"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "জ্যাঙ্গো প্রশাসন"
 
 msgid "Site administration"
@@ -530,7 +530,7 @@ msgstr "সংরক্ষণ করুন এবং আরেকটি যে�
 msgid "Save and continue editing"
 msgstr "সংরক্ষণ করুন এবং সম্পাদনা চালিয়ে যান"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "ওয়েবসাইটে কিছু সময় কাটানোর জন্য আপনাকে আন্তরিক ধন্যবাদ।"
 
 msgid "Log in again"

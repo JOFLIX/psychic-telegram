@@ -251,7 +251,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "டிஜாங்ஙோ தள நிர்வாகி"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "டிஜாங்ஙோ நிர்வாகம் "
 
 msgid "Site administration"
@@ -529,7 +529,7 @@ msgstr "சேமித்து இன்னுமொன்றைச் சே�
 msgid "Save and continue editing"
 msgstr "சேமித்து மாற்றத்தை தொடருக"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "வலைத்தளத்தில் உங்களது பொன்னான நேரத்தை செலவழித்தமைக்கு மிகுந்த நன்றி"
 
 msgid "Log in again"

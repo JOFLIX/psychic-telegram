@@ -278,7 +278,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Trang web admin Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Trang quản trị cho Django"
 
 msgid "Site administration"
@@ -574,7 +574,7 @@ msgstr "Thêm %(model)s khác"
 msgid "Delete selected %(model)s"
 msgstr "Xóa %(model)s đã chọn"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Cảm ơn bạn đã dành thời gian với website này"
 
 msgid "Log in again"

@@ -272,7 +272,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "ผู้ดูแลระบบ Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "การจัดการ Django"
 
 msgid "Site administration"
@@ -562,7 +562,7 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "ขอบคุณที่สละเวลาอันมีค่าให้กับเว็บไซต์ของเราในวันนี้"
 
 msgid "Log in again"

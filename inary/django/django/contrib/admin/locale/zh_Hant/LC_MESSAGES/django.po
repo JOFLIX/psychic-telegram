@@ -260,7 +260,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django 網站管理"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django 管理"
 
 msgid "Site administration"
@@ -540,7 +540,7 @@ msgstr "儲存並新增另一個"
 msgid "Save and continue editing"
 msgstr "儲存並繼續編輯"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "感謝你今天花了重要的時間停留在本網站。"
 
 msgid "Log in again"

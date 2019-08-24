@@ -274,7 +274,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django-ს ადმინისტრირების საიტი"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django-ს ადმინისტრირება"
 
 msgid "Site administration"
@@ -571,7 +571,7 @@ msgstr ""
 msgid "Delete selected %(model)s"
 msgstr "მონიშნული %(model)s-ის წაშლა"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "გმადლობთ, რომ დღეს ამ საიტთან მუშაობას დაუთმეთ დრო."
 
 msgid "Log in again"

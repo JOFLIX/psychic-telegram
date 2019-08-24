@@ -299,7 +299,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django сайт адміністрування"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django адміністрування"
 
 msgid "Site administration"
@@ -599,7 +599,7 @@ msgstr "Додати ще одну %(model)s"
 msgid "Delete selected %(model)s"
 msgstr "Видалити обрану %(model)s"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Дякуємо за час, проведений сьогодні на сайті."
 
 msgid "Log in again"

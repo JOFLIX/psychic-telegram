@@ -11,6 +11,7 @@ import app.views
 from app.views import SearchResultsView
 from django.conf.urls import include
 from django.contrib import admin
+
 admin.autodiscover()
 
 urlpatterns = [
@@ -26,9 +27,11 @@ urlpatterns = [
     # Uncomment the next line to enable the admin:
     url(r'^admin/', admin.site.urls),
     # searching the dir
-    url(r'^search/', SearchResultsView.as_view(), name='search_results'),
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+
+    # url(r'^search/(?P<slug>[+\w]+)$', SearchResultsView.as_view(), name='search_results'),
+    # url(r'^search/(?P<pk>\d+)/$', SearchResultsView.as_view(template_name ='search_results.html'), name='search_results'),
+    url(r'^search/({slug_field: slug})', SearchResultsView.as_view(), name='search_results'),
+
 
     #enabling Auth
     ##### user related path##########################

@@ -1,4 +1,7 @@
 import os
+import django_heroku
+import dj_database_url
+from decouple import config,Csv
 #import posixpath
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -30,6 +33,9 @@ INSTALLED_APPS = [
     'django_admin_reset',
     'gallery',
     'watermarker',
+    'whitenoise.runserver_nostatic',
+    # 'django.contrib.staticfiles',
+
     # 'whoosh',
     # 'haystack'
 
@@ -39,13 +45,16 @@ INSTALLED_APPS = [
 SITE_ID = 1
 
 MIDDLEWARE = [
+# https://warehouse.python.org/project/whitenoise/
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware'
+
 ]
 
 ROOT_URLCONF = 'django_photo_gallery.urls'
@@ -164,3 +173,10 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder'
 )
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+STATIC_HOST = os.environ.get('DJANGO_STATIC_HOST', '')
+STATIC_URL = STATIC_HOST + '/static/'
+# Configure Django App for Heroku.
+django_heroku.settings(locals())

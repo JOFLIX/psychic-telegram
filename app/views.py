@@ -7,9 +7,12 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import DetailView, ListView
 from django.contrib.postgres.search import SearchVector
 from app.models import Album, AlbumImage
+from django.db.models import F
 from django.db.models import Q
 from .models import Album
-# from playhouse.sqlite_ext import SqliteExtDatabase
+
+search_vector = SearchVector('album_text', 'album_tags')
+
 def gallery(request):
     list = Album.objects.filter(is_visible=True).order_by('-created')
     paginator = Paginator(list, 10)
@@ -34,23 +37,40 @@ class AlbumDetail(DetailView):
         context['images'] = AlbumImage.objects.filter(album=self.object.id)
         return context
 
+        def __str__(self):
+            return self.name
+
 class SearchResultsView(DetailView):
+    # """
+    # Render a "detail" view of an object.
+    #
+    # By default this is a model instance looked up from `self.queryset`, but the
+    # view will support display of *any* object by overriding `self.get_object()`.
+    # """
+
     model = Album
     template_name = 'search_results.html'
 
     def get_queryset(self): # new
         query = self.request.GET.get('q')
         object_list = AlbumImage.objects.filter(
-        # slug__icontains=Album
-        Q(tags__icontains=query)
-            # Q(album=query) | Q(image=query)| Q(thumb=query)| Q(id=query)|Q(alt=query) |Q(album_id=query)|Q(slug=query)| Q(tags=query)
+            Q(album=query) | Q(image=query)| Q(thumb=query)| Q(id=query)|Q(alt=query) |Q(album_id=query)|Q(slug=query)| Q(alt=query)
         )
         return object_list
-    @classmethod
-    def search_by_title(cls,search_term):
-        albums = cls.objects.filter(title__icontains=search_term)
-        return albums
 
+# Author.objects.filter(
+# name__contains='Terry'
+# ).values_list('name', flat=True)
+
+    def __str__(self):
+        return self.name
+# Album.objects.filter(
+# tags__contains='tags'
+# ).values_list('tags', flat=True)
+#Trying vector serching using DRY principles to enable multiple field search
+# tags_vector = SearchVector('tags')
+# category_title_vector = SearchVector('category__title')
+# Album.objects.annotate(search=F('tags') + F('title')).filter(search='')
 
 def handler404(request, exception):
     assert isinstance(request, HttpRequest)

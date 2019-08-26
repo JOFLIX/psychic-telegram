@@ -25,7 +25,7 @@ INSTALLED_APPS = [
    'django.contrib.sessions',
    'django.contrib.messages',
    'django.contrib.staticfiles',
-   'gallery'
+   'app'
 ]
 MIDDLEWARE = [
  # Simplified static file serving.

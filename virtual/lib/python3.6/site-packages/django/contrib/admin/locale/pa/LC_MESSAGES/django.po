@@ -269,7 +269,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "ਡੀਜਾਂਗੋ ਸਾਈਟ ਐਡਮਿਨ"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "ਡੀਜਾਂਗੋ ਪਰਸ਼ਾਸ਼ਨ"
 
 msgid "Site administration"
@@ -547,7 +547,7 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "ਅੱਜ ਵੈੱਬਸਾਈਟ ਨੂੰ ਕੁਝ ਚੰਗਾ ਸਮਾਂ ਦੇਣ ਲਈ ਧੰਨਵਾਦ ਹੈ।"
 
 msgid "Log in again"

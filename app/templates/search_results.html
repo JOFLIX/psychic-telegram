@@ -1,6 +1,15 @@
 {%extends 'layout.html'%}
 {% block content %}
 <h1>Search Results</h1>
+<div class="row">
+  {% if albums%}
+    <h2>Found {{ albums|length }} of searched term {{message}}</h2>
+  {% else %}
+    <h2> Found 0 images for the search term {{message}}</h2>
+  {% endif %}
+
+</div>
+
 <div class="my-card__media mdc-card__media mdc-card__media--16-9" style="align-content:center-align; padding-left:8%">
   <div class="card-image">
 

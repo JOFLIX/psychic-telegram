@@ -338,7 +338,7 @@ msgid "Django site admin"
 msgstr ""
 
 #: contrib/admin/sites.py:44 contrib/admin/templates/admin/base_site.html:6
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr ""
 
 #: contrib/admin/sites.py:47
@@ -737,7 +737,7 @@ msgid "Delete selected %(model)s"
 msgstr ""
 
 #: contrib/admin/templates/registration/logged_out.html:8
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr ""
 
 #: contrib/admin/templates/registration/logged_out.html:10

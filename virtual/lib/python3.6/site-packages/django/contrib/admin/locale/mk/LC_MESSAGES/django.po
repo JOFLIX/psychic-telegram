@@ -272,7 +272,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Администрација на Џанго сајт"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Џанго администрација"
 
 msgid "Site administration"
@@ -564,7 +564,7 @@ msgstr "Сними и додади уште"
 msgid "Save and continue editing"
 msgstr "Сними и продолжи со уредување"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr ""
 "Ви благодариме што денеска поминавте квалитетно време со интернет страницава."
 

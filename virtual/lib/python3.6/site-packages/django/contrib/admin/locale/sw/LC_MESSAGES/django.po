@@ -260,7 +260,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Utawala wa tovuti ya django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Utawala wa Django"
 
 msgid "Site administration"
@@ -551,7 +551,7 @@ msgstr "Hifadhi na ongeza"
 msgid "Save and continue editing"
 msgstr "Hifadhi na endelea kuhariri"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Ahsante kwa kutumia muda wako katika Tovuti yetu leo. "
 
 msgid "Log in again"

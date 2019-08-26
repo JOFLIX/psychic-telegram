@@ -273,7 +273,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django կայքի ադմինիստրավորման էջ"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django ադմինիստրավորում"
 
 msgid "Site administration"
@@ -577,7 +577,7 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Շնորհակալություն մեր կայքում ինչ֊որ ժամանակ ծախսելու համար։"
 
 msgid "Log in again"

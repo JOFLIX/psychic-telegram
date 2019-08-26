@@ -251,7 +251,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "ጃንጎ ድህረ-ገጽ አስተዳዳሪ"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "ጃንጎ አስተዳደር"
 
 msgid "Site administration"
@@ -519,7 +519,7 @@ msgstr ""
 msgid "Save and continue editing"
 msgstr ""
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "ዛሬ ድህረ-ገዓችንን ላይ ጥሩ ጊዜ ስላሳለፉ እናመሰግናለን::"
 
 msgid "Log in again"

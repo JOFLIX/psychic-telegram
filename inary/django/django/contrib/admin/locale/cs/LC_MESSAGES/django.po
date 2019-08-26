@@ -293,7 +293,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Správa webu Django"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Správa systému Django"
 
 msgid "Site administration"
@@ -594,7 +594,7 @@ msgstr "Přidat další %(model)s"
 msgid "Delete selected %(model)s"
 msgstr "Odstranit vybrané položky typu %(model)s"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Děkujeme za čas strávený s tímto webem."
 
 msgid "Log in again"

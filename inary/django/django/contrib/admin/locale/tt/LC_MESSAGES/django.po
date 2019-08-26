@@ -252,7 +252,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django сайты идарәсе"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django идарәсе"
 
 msgid "Site administration"
@@ -539,7 +539,7 @@ msgstr "Сакларга һәм бүтән объектны өстәргә"
 msgid "Save and continue editing"
 msgstr "Сакларга һәм төзәтүне дәвам итәргә"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Сайтыбызда үткәргән вакыт өчен рәхмәт."
 
 msgid "Log in again"

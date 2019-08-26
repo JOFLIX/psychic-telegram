@@ -288,7 +288,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Djanga reteja administrado"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Djanga administrado"
 
 msgid "Site administration"
@@ -586,7 +586,7 @@ msgstr "Aldoni alian %(model)sn"
 msgid "Delete selected %(model)s"
 msgstr "Forigi elektitan %(model)sn"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Dankon pro pasigo de kvalita tempon kun la retejo hodiaŭ."
 
 msgid "Log in again"

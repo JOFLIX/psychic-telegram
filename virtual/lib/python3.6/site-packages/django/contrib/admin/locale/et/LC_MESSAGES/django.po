@@ -279,7 +279,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Django administreerimisliides"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Django administreerimisliides"
 
 msgid "Site administration"
@@ -578,7 +578,7 @@ msgstr "Lisa veel üks %(model)s"
 msgid "Delete selected %(model)s"
 msgstr "Kustuta valitud %(model)s"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Tänan, et veetsite aega meie lehel."
 
 msgid "Log in again"

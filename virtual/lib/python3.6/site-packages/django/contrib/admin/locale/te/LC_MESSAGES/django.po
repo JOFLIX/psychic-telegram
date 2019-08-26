@@ -256,7 +256,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "జాంగొ యొక్క నిర్వాహణదారులు"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "జాంగొ నిర్వాహణ"
 
 msgid "Site administration"
@@ -524,7 +524,7 @@ msgstr "దాచి కొత్త దానిని కలపండి"
 msgid "Save and continue editing"
 msgstr "దాచి  మార్చుటా ఉందండి"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr ""
 
 msgid "Log in again"

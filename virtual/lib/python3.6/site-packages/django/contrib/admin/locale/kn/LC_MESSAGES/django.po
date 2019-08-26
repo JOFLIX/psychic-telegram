@@ -250,7 +250,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "ಜಾಂಗೋ ತಾಣದ ಆಡಳಿತಗಾರರು"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "ಜಾಂಗೋ ಆಡಳಿತ"
 
 msgid "Site administration"
@@ -525,7 +525,7 @@ msgstr "ಉಳಿಸಿ ಮತ್ತು ಇನ್ನೊಂದನ್ನು ಸೇ
 msgid "Save and continue editing"
 msgstr "ಉಳಿಸಿ ಮತ್ತು ತಿದ್ದುವುದನ್ನು ಮುಂದುವರಿಸಿರಿ."
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "ಈದಿನ ತಮ್ಮ ಅತ್ಯಮೂಲ್ಯವಾದ ಸಮಯವನ್ನು ನಮ್ಮ ತಾಣದಲ್ಲಿ ಕಳೆದುದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು."
 
 msgid "Log in again"

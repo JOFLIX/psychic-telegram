@@ -267,7 +267,7 @@ msgstr ""
 msgid "Django site admin"
 msgstr "Кіраўнічая пляцоўка «Джэнґа»"
 
-msgid "Django administration"
+msgid "Conqueror's Gallery Administration"
 msgstr "Кіраваць «Джэнґаю»"
 
 msgid "Site administration"
@@ -560,7 +560,7 @@ msgstr "Захаваць і дадаць іншы"
 msgid "Save and continue editing"
 msgstr "Захаваць і працягваць правіць"
 
-msgid "Thanks for spending some quality time with the Web site today."
+msgid "Thanks for spending some quality time with the Web site today.See you next time!"
 msgstr "Дзякуем за час, які вы сёньня правялі на гэтай пляцоўцы."
 
 msgid "Log in again"

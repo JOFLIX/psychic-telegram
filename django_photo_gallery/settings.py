@@ -1,6 +1,7 @@
 import os
 import django_heroku
 import dj_database_url
+
 from decouple import config,Csv
 import posixpath
 
@@ -8,12 +9,13 @@ import posixpath
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = os.environ.get('SECRET_KEY')
 SECRET_KEY = '8ace3072-47a0-4910-b522-dc3601f38c35'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0','127.0.0.1','localhost',]
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','shrouded-lake-38934.herokuapp.com']
 INTERNAL_IPS = ('0.0.0.0','127.0.0.1','localhost',)
 
 INSTALLED_APPS = [
@@ -46,8 +48,8 @@ SITE_ID = 1
 
 MIDDLEWARE = [
 # https://warehouse.python.org/project/whitenoise/
-    'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -91,6 +93,10 @@ DATABASES = {
     }
 }
 
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'].update(db_from_env)
+
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -126,13 +132,13 @@ STATIC_URL = '/static/'
 
 # https://docs.djangoproject.com/en/1.8/howto/static-files/deployment/
 # python manage.py collectstatic
-#STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static/']))
-STATIC_ROOT = BASE_DIR + '/static/'
+
+# STATIC_ROOT = BASE_DIR + '/static/'
 
 MEDIA_URL = '/media/'
 #MEDIA_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['media/']))
-MEDIA_ROOT = BASE_DIR + '/media/'
-
+# MEDIA_ROOT = BASE_DIR + '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -173,10 +179,13 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder'
 )
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'django_photo_gallery/static')]
 STATIC_HOST = os.environ.get('DJANGO_STATIC_HOST', '')
 STATIC_URL = STATIC_HOST + '/static/'
+SECRET_KEY = os.environ.get('SECRET_KEY')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 # Configure Django App for Heroku.
 django_heroku.settings(locals())

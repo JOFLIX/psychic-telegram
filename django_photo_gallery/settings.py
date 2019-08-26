@@ -39,7 +39,7 @@ MIDDLEWARE = [
    'django.contrib.messages.middleware.MessageMiddleware',
    'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-ROOT_URLCONF = 'mygallery.urls'
+ROOT_URLCONF = 'django_photo_gallery.urls'
 TEMPLATES = [
    {
        'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -55,7 +55,7 @@ TEMPLATES = [
        },
    },
 ]
-WSGI_APPLICATION = 'mygallery.wsgi.application'
+WSGI_APPLICATION = 'django_photo_gallery.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 DATABASES = {

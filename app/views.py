@@ -58,7 +58,7 @@ class AlbumDetail(DetailView):
 #         )
 #         return object_list
 class SearchResultsView(ListView):
-    model = Album
+    model = AlbumImage
     template_name = 'search_results.html'
 
     def get_queryset(self):

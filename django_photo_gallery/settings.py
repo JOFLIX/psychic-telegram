@@ -8,6 +8,8 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 import os
 import django_heroku
+from decouple import config
+from decouple import config, Csv
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
@@ -16,8 +18,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8ace3072-47a0-4910-b522-dc3601f38c35'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','shrouded-lake-38934.herokuapp.com']
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','shrouded-lake-38934.herokuapp.com']
+# ALLOWED_HOSTS = ['0.0.0.0', ]
+# SECRET_KEY = os.environ.get('SECRET_KEY')
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # Application definition
 INSTALLED_APPS = [
    'django.contrib.admin',

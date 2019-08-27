@@ -60,11 +60,11 @@ class AlbumDetail(DetailView):
 class SearchResultsView(ListView):
     model = Album
     template_name = 'search_results.html'
-    
-    def get_queryset(self): 
+
+    def get_queryset(self):
         query = self.request.GET.get('q')
         object_list = Album.image.filter(
-            Q(name__icontains=query) | Q(state__icontains=query)
+            Q(album__icontains=query) | Q(image__icontains=query)
         )
         return object_list
 # Author.objects.filter(

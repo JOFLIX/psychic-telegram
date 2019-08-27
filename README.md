@@ -14,7 +14,7 @@ This application allows users to view images according to their categories,locat
 | View the image details                   | Click on the image                        | All the image details will be displayed  |
 | Share image                              | Click on the share link button            | The image link is shared                 |
 |View magnified image size                 | Click on the image                        |  A large image is displayed with the     |
-                                           |                                           |     share buttons and extra magnify icon |
+|                                          |                                           |  share buttons and extra magnify icon |
 ### Setup/Installation Requirements
 <ul>
 <li>Ensure you have Python3.6.x installed</li>
